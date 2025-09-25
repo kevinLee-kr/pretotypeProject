@@ -1,0 +1,48 @@
+.signup-container {
+    max-width: 400px;
+    margin: 25px auto;
+    padding: 40px 30px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    text-align: center;
+}
+.subLogo img{
+    width: 450px;
+}
+
+
+form input {
+    width: 88%;
+    padding: 12px;
+    margin-bottom:10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.error-message {
+    color: red;
+    font-size: 13px;
+    margin: -5px 0 10px 0;
+    text-align: left;
+}
+.signup-btn {
+    width: 100%;
+    padding: 12px;
+    background: #28a745;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-text {
+    font-size: 13px;
+    color: #666;
+}
+.login-text a {
+    color: #007bff;
+    cursor: pointer;
+}

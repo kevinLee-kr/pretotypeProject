@@ -21,7 +21,7 @@
       </div>
       <div id="authUser">
         <button class="btn" @click="goLogin">로그인</button>
-        <button class="btn">회원가입</button>
+        <button class="btn" @click="goSignUp">회원가입</button>
       </div>
     </header>
 
@@ -119,6 +119,9 @@ export default {
   methods: {
     goLogin() {
       this.$router.push('/login')
+    },
+    goSignUp(){
+      this.$router.push('/signUp')
     }
   }
 }
