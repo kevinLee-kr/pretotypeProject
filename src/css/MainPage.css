@@ -15,6 +15,9 @@
     font-size: 20px;
     font-weight: bold;
     margin: 18px 10px 0;
+
+    width: 450px;
+    flex: 0 0 450px;
 }
 
 #comTitle img {
@@ -23,7 +26,11 @@
 
 #headerTap {
     flex: 1;
-    margin: 0 1px;
+    width: 100%;
+
+    min-width: 600px;
+
+    flex-shrink: 0;
 }
 
 #headerTap ul {
@@ -32,15 +39,16 @@
     gap: 20px;
     padding: 0;
     margin: 0;
+
 }
 
 #headerTap li {
     cursor: pointer;
 
-    min-width: 60px;
-    flex-shrink: 0;
 }
-
+#searchBar{
+    width: 200px;
+}
 #searchBar input {
     padding: 5px 10px;
     border: 1px solid #ddd;
@@ -49,7 +57,8 @@
 
 #authUser {
     margin-left: 20px;
-
+    min-width: 100px;
+    flex-shrink: 0;
 }
 
 #authUser .btn {
@@ -61,8 +70,7 @@
     border-radius: 6px;
     cursor: pointer;
 
-    min-width: 72px;
-    flex-shrink: 0;
+
 }
 
 /* ====== BODY ====== */
@@ -129,6 +137,11 @@
     border-radius: 6px;
     padding: 15px;
     border: 1px solid #eee;
+    flex: 1;
+    height: 100%;
+    width: 700px;
+    min-width: 400px;
+    flex-shrink: 0;
 }
 
 .cardLarge h3 {
@@ -146,13 +159,6 @@
     font-size: 14px;
     margin: 12px;
     cursor: pointer;
-}
-
-.cardLarge {
-    flex: 1;
-    height: 250px;
-    min-width: 400px;
-    flex-shrink: 0; /* 줄어들지 않게 고정 */
 }
 #cardHeader{
     height: 60px;

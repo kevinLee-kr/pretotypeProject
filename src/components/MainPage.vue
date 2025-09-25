@@ -6,7 +6,7 @@
         <img src="../assets/logo1.png" id="logo" alt="ventureVoiceLogo"/>
       </div>
       <div id="comTitle"><img src="../assets/logo2.png" id="logo" alt="ventureVoiceTitle"/></div>
-      <nav id="headerTap">
+            <nav id="headerTap">
         <ul>
           <li>아이디어 탐색</li>
           <li>아이디어 등록</li>
@@ -52,6 +52,10 @@
               <li><a>AI 기반 요약 서비스</a></li>
               <li>친환경 배달 박스 프로토타입</li>
               <li>실시간 화상 피드백 앱</li>
+              <li><a>AI 기반 요약 서비스</a></li>
+              <li>친환경 배달 박스 프로토타입</li>
+              <li>실시간 화상 피드백 앱</li>
+              <li><a>AI 기반 요약 서비스</a></li>
             </ul>
           </div>
           <div class="cardLarge">
@@ -62,6 +66,10 @@
               <li>블록체인 신원 인증</li>
               <li>AI 채용 매칭 서비스</li>
               <li>메타버스 협업 툴</li>
+              <li>블록체인 신원 인증</li>
+              <li>AI 채용 매칭 서비스</li>
+              <li>메타버스 협업 툴</li>
+              <li>블록체인 신원 인증</li>
             </ul>
           </div>
         </div>
@@ -73,6 +81,11 @@
             <ul>
               <li>원격 팀 빌딩 플랫폼</li>
               <li>헬스케어 데이터 분석 앱</li>
+              <li>원격 팀 빌딩 플랫폼</li>
+              <li>헬스케어 데이터 분석 앱</li>
+              <li>원격 팀 빌딩 플랫폼</li>
+              <li>헬스케어 데이터 분석 앱</li>
+              <li>원격 팀 빌딩 플랫폼</li>
             </ul>
           </div>
           <div class="cardLarge">
@@ -82,6 +95,11 @@
             <ul>
               <li>이번 주 가장 많이 언급된 키워드: AI</li>
               <li>긍정 피드백 TOP 분야: 생산성 툴</li>
+              <li>이번 주 가장 많이 언급된 키워드: AI</li>
+              <li>긍정 피드백 TOP 분야: 생산성 툴</li>
+              <li>이번 주 가장 많이 언급된 키워드: AI</li>
+              <li>긍정 피드백 TOP 분야: 생산성 툴</li>
+              <li>이번 주 가장 많이 언급된 키워드: AI</li>
             </ul>
           </div>
         </div>
